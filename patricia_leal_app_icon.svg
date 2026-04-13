@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Content Hub · Patrícia Leal — App Icon</title>
+  <desc>Ícone quadrado com fundo teal escuro, bússola dourada e monograma PL para a app Content Hub da Bússola Imobiliária</desc>
+
+  <defs>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="512" height="512" rx="112"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="#0d3d3a"/>
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="none" stroke="#c9a84c" stroke-width="4" opacity="0.5"/>
+
+  <!-- Subtle rings -->
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#c9a84c" stroke-width="1.2" opacity="0.18"/>
+  <circle cx="256" cy="256" r="130" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.12"/>
+
+  <!-- North point (gold, tall) -->
+  <polygon points="256,80 244,190 256,174 268,190" fill="#c9a84c"/>
+  <!-- South point (teal, shorter) -->
+  <polygon points="256,432 244,322 256,338 268,322" fill="#1aaa96" opacity="0.75"/>
+  <!-- East point -->
+  <polygon points="432,256 322,244 338,256 322,268" fill="#c9a84c" opacity="0.55"/>
+  <!-- West point -->
+  <polygon points="80,256 190,244 174,256 190,268" fill="#c9a84c" opacity="0.55"/>
+
+  <!-- Center circle -->
+  <circle cx="256" cy="256" r="30" fill="#0d3d3a" stroke="#c9a84c" stroke-width="3"/>
+  <circle cx="256" cy="256" r="9" fill="#c9a84c"/>
+
+  <!-- Cardinal tick marks -->
+  <line x1="256" y1="76" x2="256" y2="92" stroke="#c9a84c" stroke-width="2.5" opacity="0.4"/>
+  <line x1="256" y1="420" x2="256" y2="436" stroke="#c9a84c" stroke-width="2.5" opacity="0.4"/>
+  <line x1="76" y1="256" x2="92" y2="256" stroke="#c9a84c" stroke-width="2.5" opacity="0.4"/>
+  <line x1="420" y1="256" x2="436" y2="256" stroke="#c9a84c" stroke-width="2.5" opacity="0.4"/>
+
+  <!-- N label -->
+  <text x="256" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="600" fill="#c9a84c" opacity="0.9">N</text>
+
+  <!-- PL monogram -->
+  <text x="256" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="400" fill="#c9a84c" opacity="0.45" letter-spacing="10">PL</text>
+</svg>
